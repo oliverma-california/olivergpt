@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "device": "NVIDIA GeForce RTX 5070 Ti Laptop GPU",
+    "torch": "2.11.0+cu128",
+    "batch_size": 64,
+    "prompt_len": 12,
+    "reps": 3,
+    "params": 10833408,
+    "config": {
+      "vocab_size": 126,
+      "d_model": 384,
+      "n_heads": 6,
+      "n_layers": 6,
+      "block_size": 256,
+      "dropout": 0.3,
+      "tie_weights": false
+    }
+  },
+  "records": [
+    {
+      "n_tokens": 50,
+      "method": "naive",
+      "best_s": 0.3013490000000161,
+      "mean_s": 0.3069209333333447,
+      "tok_per_s_total": 10618.916936840107,
+      "tok_per_s_per_seq": 165.92057713812667
+    },
+    {
+      "n_tokens": 50,
+      "method": "cached",
+      "best_s": 0.1369152999999983,
+      "mean_s": 0.13947769999998627,
+      "tok_per_s_total": 23372.11400040784,
+      "tok_per_s_per_seq": 365.1892812563725
+    },
+    {
+      "n_tokens": 100,
+      "method": "naive",
+      "best_s": 1.0160366000000067,
+      "mean_s": 1.0286246666666823,
+      "tok_per_s_total": 6298.985686145516,
+      "tok_per_s_per_seq": 98.4216513460237
+    },
+    {
+      "n_tokens": 100,
+      "method": "cached",
+      "best_s": 0.26977840000000697,
+      "mean_s": 0.2708057666666643,
+      "tok_per_s_total": 23723.174279333834,
+      "tok_per_s_per_seq": 370.67459811459116
+    },
+    {
+      "n_tokens": 200,
+      "method": "naive",
+      "best_s": 4.017969200000039,
+      "mean_s": 4.03438220000002,
+      "tok_per_s_total": 3185.688929621431,
+      "tok_per_s_per_seq": 49.77638952533486
+    },
+    {
+      "n_tokens": 200,
+      "method": "cached",
+      "best_s": 0.5442775999999867,
+      "mean_s": 0.5509728666666737,
+      "tok_per_s_total": 23517.410968227083,
+      "tok_per_s_per_seq": 367.45954637854817
+    }
+  ]
+}

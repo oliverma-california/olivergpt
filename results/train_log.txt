@@ -1,0 +1,51 @@
+train 564,597 tokens | val 62,732 tokens | vocab 126
+model: 10,833,408 params  (6L 6H 384d)
+autocast bf16: True
+optimizer: 39 decayed tensors (10,811,904 params), 38 undecayed (21,504 params)
+step     0 | train 4.8635 | val 4.8743 | lr 1.00e-05 | 3s
+    saved best.pt (val 4.8743)
+  step     0 | loss 4.8712 | lr 1.00e-05
+step   100 | train 2.5931 | val 2.5916 | lr 1.00e-03 | 14s
+    saved best.pt (val 2.5916)
+step   200 | train 2.5079 | val 2.5175 | lr 9.94e-04 | 26s
+    saved best.pt (val 2.5175)
+step   300 | train 2.2221 | val 2.2177 | lr 9.76e-04 | 38s
+    saved best.pt (val 2.2177)
+step   400 | train 1.9649 | val 1.9694 | lr 9.46e-04 | 50s
+    saved best.pt (val 1.9694)
+step   500 | train 1.7910 | val 1.8170 | lr 9.05e-04 | 62s
+    saved best.pt (val 1.8170)
+  step   500 | loss 1.9145 | lr 9.05e-04
+step   600 | train 1.6854 | val 1.7290 | lr 8.55e-04 | 73s
+    saved best.pt (val 1.7290)
+step   700 | train 1.5841 | val 1.6564 | lr 7.96e-04 | 85s
+    saved best.pt (val 1.6564)
+step   800 | train 1.5126 | val 1.5981 | lr 7.31e-04 | 97s
+    saved best.pt (val 1.5981)
+step   900 | train 1.4588 | val 1.5695 | lr 6.60e-04 | 108s
+    saved best.pt (val 1.5695)
+step  1000 | train 1.4027 | val 1.5394 | lr 5.87e-04 | 120s
+    saved best.pt (val 1.5394)
+  step  1000 | loss 1.5304 | lr 5.87e-04
+step  1100 | train 1.3486 | val 1.5101 | lr 5.13e-04 | 131s
+    saved best.pt (val 1.5101)
+step  1200 | train 1.3195 | val 1.4976 | lr 4.40e-04 | 143s
+    saved best.pt (val 1.4976)
+step  1300 | train 1.2832 | val 1.4823 | lr 3.69e-04 | 155s
+    saved best.pt (val 1.4823)
+step  1400 | train 1.2545 | val 1.4781 | lr 3.04e-04 | 166s
+    saved best.pt (val 1.4781)
+step  1500 | train 1.2198 | val 1.4592 | lr 2.45e-04 | 178s
+    saved best.pt (val 1.4592)
+  step  1500 | loss 1.3517 | lr 2.45e-04
+step  1600 | train 1.2016 | val 1.4598 | lr 1.95e-04 | 190s
+step  1700 | train 1.1814 | val 1.4565 | lr 1.54e-04 | 201s
+    saved best.pt (val 1.4565)
+step  1800 | train 1.1644 | val 1.4433 | lr 1.24e-04 | 213s
+    saved best.pt (val 1.4433)
+step  1900 | train 1.1513 | val 1.4457 | lr 1.06e-04 | 225s
+step  2000 | train 1.1386 | val 1.4429 | lr 1.00e-04 | 236s
+    saved best.pt (val 1.4429)
+
+done in 236s | best val loss 1.4429
+checkpoint: C:\Users\oliverma\Documents\char-transformer\checkpoints\best.pt

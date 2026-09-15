@@ -1,0 +1,23 @@
+# --- personal data: never commit ---------------------------------------
+# The corpus is ~17K of my own Discord messages. The repo ships the parser
+# that builds one, not the corpus itself.
+data/corpus.txt
+data/*.pt
+*export*.json
+
+# Trained weights: 42 MB, and a model this small on a corpus this size
+# memorizes recognizable chunks of it.
+checkpoints/*.pt
+
+# Personal notes, not part of the project.
+docs/
+
+# --- keep the benchmark evidence, drop the raw run logs ----------------
+results/*.log
+
+# --- python ------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/

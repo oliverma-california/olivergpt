@@ -1,0 +1,6 @@
+# Install torch separately with the CUDA build matching your GPU, e.g. for
+# Blackwell (RTX 50-series) you need the cu128 wheels:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu128
+torch>=2.7
+numpy
+matplotlib

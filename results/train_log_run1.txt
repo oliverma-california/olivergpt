@@ -1,0 +1,36 @@
+train 564,597 tokens | val 62,732 tokens | vocab 126
+model: 10,833,408 params  (6L 6H 384d)
+autocast bf16: True
+optimizer: 39 decayed tensors (10,811,904 params), 38 undecayed (21,504 params)
+step     0 | train 4.8635 | val 4.8743 | lr 1.00e-05 | 3s
+    saved best.pt (val 4.8743)
+  step     0 | loss 4.8629 | lr 1.00e-05
+step   250 | train 2.1872 | val 2.2000 | lr 9.98e-04 | 27s
+    saved best.pt (val 2.2000)
+  step   250 | loss 2.2201 | lr 9.98e-04
+step   500 | train 1.6826 | val 1.7363 | lr 9.85e-04 | 53s
+    saved best.pt (val 1.7363)
+  step   500 | loss 1.7719 | lr 9.85e-04
+step   750 | train 1.4689 | val 1.5851 | lr 9.61e-04 | 78s
+    saved best.pt (val 1.5851)
+  step   750 | loss 1.5117 | lr 9.61e-04
+step  1000 | train 1.3042 | val 1.5057 | lr 9.27e-04 | 103s
+    saved best.pt (val 1.5057)
+  step  1000 | loss 1.3993 | lr 9.27e-04
+step  1250 | train 1.1815 | val 1.4655 | lr 8.83e-04 | 128s
+    saved best.pt (val 1.4655)
+  step  1250 | loss 1.3416 | lr 8.83e-04
+step  1500 | train 1.0738 | val 1.4813 | lr 8.31e-04 | 153s
+  step  1500 | loss 1.2113 | lr 8.31e-04
+step  1750 | train 0.9571 | val 1.5042 | lr 7.71e-04 | 177s
+  step  1750 | loss 1.1174 | lr 7.71e-04
+step  2000 | train 0.8490 | val 1.5540 | lr 7.05e-04 | 202s
+  step  2000 | loss 1.0482 | lr 7.05e-04
+step  2250 | train 0.7482 | val 1.5969 | lr 6.36e-04 | 227s
+  step  2250 | loss 0.9469 | lr 6.36e-04
+step  2500 | train 0.6589 | val 1.6646 | lr 5.64e-04 | 251s
+  step  2500 | loss 0.8588 | lr 5.64e-04
+step  2750 | train 0.5644 | val 1.7386 | lr 4.92e-04 | 275s
+  step  2750 | loss 0.8167 | lr 4.92e-04
+step  3000 | train 0.4919 | val 1.8196 | lr 4.22e-04 | 300s
+  step  3000 | loss 0.7341 | lr 4.22e-04
